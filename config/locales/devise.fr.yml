@@ -1,0 +1,84 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+fr:
+  devise:
+    confirmations:
+      confirmed: "Votre compte a été confirmé. Vous êtes maintenant connecté."
+      send_instructions: "Vous allez recevoir un email vous expliquant comment confirmer votre compte d'ici quelques minutes."
+      send_paranoid_instructions: "Si votre email existe dans notre base, vous recevrez d'ici quelques minutes un mail avec les instructions pour confirmer votre compte."
+    failure:
+      already_authenticated: "Vous êtes déjà authentifié."
+      inactive: "Votre compte n'est pas encore activé."
+      invalid: "Email ou mot de passe incorrect."
+      invalid_token: "Jeton d'authentification incorrect."
+      locked: "Votre compte est verrouillé."
+      not_found_in_database: "Email ou mot de passe incorrect."
+      timeout: "Votre session a expiré, merci de vous reconnecter pour continuer."
+      unauthenticated: "Vous devez vous connecter avant de continuer."
+      unconfirmed: "Vous devez confirmer votre compte avant de continuer."
+    mailer:
+      confirmation_instructions:
+        subject: "Instructions de confirmation de compte"
+      reset_password_instructions:
+        subject: "Instructions de réinitialisation de votre mot de passe"
+      unlock_instructions:
+        subject: "Instructions pour déverrouiller votre compte"
+    omniauth_callbacks:
+      failure: "Impossible de vous authentifier à partir de %{kind} car \"%{reason}\"."
+      success: "Authentification réussie à partir de %{kind}."
+    passwords:
+      no_token: "Vous ne pouvez accéder à cette page si vous ne venez pas d'une demande de réinitialisation de mot de passe. Si vous venez d'un email de réinitialisation de mot de passe, merci de vérifier que vous avez utilisé l'URL complète fournie."
+      send_instructions: "Vous allez recevoir un mail vous expliquant comment réinitialiser votre mot de passe d'ici quelques minutes."
+      send_paranoid_instructions: "Si votre email existe dans notre base, vous allez recevoir un mail contenant un lien de réinitialisation de mot de passe d'ici quelques minutes."
+      updated: "Votre mot de passe a bien été changé. Vous êtes maintenant connecté."
+      updated_not_active: "Votre mot de passe a bien été changé."
+      new:
+        site_title: "J'ai oublié mon mot de passe"
+        title: "Saisissez votre adresse mail et demandez une réinitialisation de votre mot de passe."
+        submit: "Envoyez moi les instructions pour réinitialiser mon mot de passe"
+      edit:
+        site_title: "Réinitialiser mon mot de passe"
+        label_new_password: "Entrez votre nouveau mot de passe"
+        title: "Réinitialiser mon mot de passe"
+        subtitle: "Réinitialisez votre mot de passe afin de vous connecter à Catarse."
+        submit: "Réinitialiser mon mot de passe"
+    registrations:
+      destroyed: "Au revoir ! Votre compte a été supprimé. Nous espérons vous revoir bientôt."
+      signed_up: "Bienvenue ! Vous êtes enregistré."
+      signed_up_but_inactive: "Vous êtes enregistré. Cependant vous n'êtes pas encore connecté car votre compte n'a pas encore été activé."
+      signed_up_but_locked: "Vous êtes enregistré. Cependant vous n'êtes pas encore connecté car votre compte est verrouillé."
+      signed_up_but_unconfirmed: "Un lien de confirmation vient de vous être envoyé par mail. Merci de cliquer sur ce lien afin d'activer votre compte."
+      update_needs_confirmation: "Vous avez mis à jour votre compte, nous avons besoin de vérifier votre nouvelle adresse email. Merci de vérifier vos mails et de cliquer sur le lien de confirmation qui vient de vous être envoyé afin de finaliser la vérification de votre adresse email."
+      updated: "Vous avez correctement mis à jour votre compte."
+    sessions:
+      new:
+        site_title: "Se connecter"
+        submit: "Se connecter"
+        title: "Se connecter avec votre adresse email"
+        login_title: "Se connecter"
+        login_subtitle: "Si vous avez déjà un compte"
+        register_title: "Créer un compte"
+        register_subtitle: "Utiliser votre adresse email"
+        with_facebook: "Utiliser votre compte Facebook"
+        with_facebook_subtitle: "Un moyen rapide de se connecter."
+        google_warning_html: "Si vous utilisez un compte <strong>Google</strong> :"
+        google_step_1: "1 - Cliquez sur %{link}"
+        google_step_2: "2 - Suivez les étapes pour créer un nouveau mot de passe."
+        with_another_social: "Le support de Twitter sera retiré la semaine prochaine."
+        with_another_social_subtitle: "<a target=\"_blank\" href=\"http://blog.catarse.me/mudanca-no-sistema-de-login/\">En savoir plus</a> à ce sujet (en portugais uniquement)"
+      signed_in: "Connecté."
+      signed_out: "Déconnecté."
+    unlocks:
+      send_instructions: "Vous allez recevoir un email vous expliquant comment déverrouiller votre compte d'ici quelques minutes."
+      send_paranoid_instructions: "Si votre email existe dans notre base, vous recevrez d'ici quelques minutes un mail avec les instructions pour déverrouiller votre compte."
+      unlocked: "Votre compte a été déverrouillé avec succès. Merci de vous connecter pour continuer."
+  errors:
+    messages:
+      already_confirmed: "est déjà confirmé, merci de vous connecter."
+      confirmation_period_expired: "doit être confirmé dans les %{period}, merci d'en redemander un nouveau."
+      expired: "a expiré, merci d'en redemander un nouveau."
+      not_found: "non trouvé"
+      not_locked: "n'était pas verrouillé"
+      not_saved:
+        one: "1 erreur a empêché %{resource} d'être sauvegardé :"
+        other: "%{count} erreurs ont empêché %{resource} d'être sauvegardé :"
