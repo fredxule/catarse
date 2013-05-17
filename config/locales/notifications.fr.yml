@@ -5,7 +5,7 @@ fr:
       header: "Un nouveau soutien vient d'être confirmé pour votre projet"
     confirm_backer:
       subject: "Merci ! Votre soutien à %{project_name} a été confirmé !"
-      header: "Soutien confirmé \o/"
+      header: "Soutien confirmé !"
     payment_slip:
       subject: "Etat du soutien pour %{project_name}: confirmation de virement"
       header: "Informations sur les paiements par virement"
